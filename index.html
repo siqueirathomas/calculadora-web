@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Minha Calculadora</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="simbolo simbolo-1">+</div>
+    <div class="simbolo simbolo-2">×</div>
+    <div class="simbolo simbolo-3">÷</div>
+    <div class="simbolo simbolo-4">=</div>
+    <div class="simbolo simbolo-5">%</div>
+    <div class="simbolo simbolo-6">∑</div>
+    <div class="simbolo simbolo-7">−</div>
+    <div class="simbolo simbolo-8">√</div>
+
+    <main class="calculadora">
+
+        <div class="cabecalho">
+
+            <span class="indicador"></span>
+
+            <h1>Calculadora</h1>
+
+        </div>
+
+        <div class="visor-container">
+
+            <div class="expressao" id="expressao"></div>
+
+            <input
+                type="text"
+                id="visor"
+                value="0"
+                readonly
+                aria-label="Visor da calculadora"
+            >
+
+        </div>
+
+        <div class="botoes">
+
+            <button class="funcao" data-acao="limpar">C</button>
+
+            <button class="funcao" data-acao="apagar">⌫</button>
+
+            <button class="funcao" data-acao="porcentagem">%</button>
+
+            <button class="operador" data-operador="/">÷</button>
+
+
+            <button class="numero">7</button>
+
+            <button class="numero">8</button>
+
+            <button class="numero">9</button>
+
+            <button class="operador" data-operador="*">×</button>
+
+
+            <button class="numero">4</button>
+
+            <button class="numero">5</button>
+
+            <button class="numero">6</button>
+
+            <button class="operador" data-operador="-">−</button>
+
+
+            <button class="numero">1</button>
+
+            <button class="numero">2</button>
+
+            <button class="numero">3</button>
+
+            <button class="operador" data-operador="+">+</button>
+
+
+            <button class="numero zero">0</button>
+
+            <button class="numero">.</button>
+
+            <button class="igual" data-acao="calcular">=</button>
+
+        </div>
+
+        <p class="rodape">Digite ou use o teclado para calcular</p>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
