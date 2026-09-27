@@ -2,9 +2,6 @@
 
 Uma calculadora responsiva desenvolvida com **HTML, CSS e JavaScript**, criada como projeto prático para estudo de desenvolvimento web e construção de portfólio.
 
-## 🚀 Demonstração
-
-👉 **[Acessar a Calculadora Web](https://siqueirathomas.github.io/calculadora-web/)**
 
 ## ✨ Funcionalidades
 
